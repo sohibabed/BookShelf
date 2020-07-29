@@ -1,0 +1,102 @@
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  width: 100%;
+}
+
+.first_shelf, .second_shelf, .third_shelf {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 25%;
+  padding-bottom: 100px;
+  padding-top: 3px;
+  margin: 15px 0 15px 0;
+  background-color: #d878c8;
+  border: 1px solid #FFEB3B;
+}
+
+.second_shelf {
+  background-color: #cc8b74;
+  border: 1px solid #FFEB3B;
+  margin-top: -90px;
+}
+
+.third_shelf {
+  background-color: #6a5baa;
+  border: 1px solid #FFEB3B;
+}
+
+.book_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.book_img {
+  object-fit: cover;
+  width: 10em;
+  height: 5.5em;
+}
+
+.book_title {
+  color: rgb(90, 69, 69);
+  margin-bottom: 0px;
+}
+
+.add_btn {
+  width: 50%;
+  height: 30px;
+  background-color: turquoise;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 34px auto 10px auto;
+  cursor: pointer;
+}
+
+.add_btn:active {
+  background-color: rgb(35, 148, 137);
+  cursor: pointer;
+}
+
+.add_btn:focus {
+  background-color: rgb(35, 148, 137);
+  cursor: pointer;
+}
+
+.add_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.add_form_hidden {
+  display: none;
+}
+
+.book_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.book_details {
+  text-align: center;
+}
+
+.input_style {
+  width: 20em;
+  height: 3em;
+}
+
+.add_form button {
+  margin-left: 10px;
+  height: 3.5em;
+}
